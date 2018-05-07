@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lyFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtInputNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:layout_marginTop="20dp"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtFechaNacimiento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_fecha_nacimiento"
+            android:layout_marginTop="20dp"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtInputTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_telefono"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtInputCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"/>
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtInputDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/hint_descripcion" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/btn_siguiente"
+        android:theme="@style/MiBotonRaised" />
+
+
+</RelativeLayout>

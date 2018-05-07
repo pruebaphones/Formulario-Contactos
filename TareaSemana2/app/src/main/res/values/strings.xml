@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Formulario Contacos</string>
+    <string name="hint_nombre">Nombre completo</string>
+    <string name="hint_fecha_nacimiento">Fecha Nacimiento</string>
+    <string name="hint_telefono">Telefono</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_descripcion">Descripcion de Contacto</string>
+    <string name="btn_siguiente">Siguiente</string>
+    <string name="btn_editar_datos">Editar Datos</string>
+    <string name="text_confirmar_datos">Confirmar Datos</string>
+
+</resources>
